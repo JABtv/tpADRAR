@@ -1,13 +1,11 @@
-body {
-  margin: 2em;
-}
-
 h1 {
+  margin: 2em;
   font-size: 3em;
 }
 
 h3 {
   font-size: 1.5em;
+  text-align: center;
 }
 
 .container-col {
@@ -28,5 +26,32 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
+}
+
+form input {
+  font-size: 2em;
+}
+
+.btn {
+  background-color: rgb(170, 206, 116);
+}
+
+.btn:hover {
+  background-color: rgb(146, 177, 101);
+}
+
+.btn:active {
+  background-color: rgb(122, 148, 84);
+}
+
+#checkboxLog {
+  height: 0.6em;
+}
+
+.container-form {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  top: -1em;
+  background-color: 2em, solid black;
 }
