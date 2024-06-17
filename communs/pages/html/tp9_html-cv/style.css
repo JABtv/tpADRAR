@@ -3,7 +3,8 @@ body {
 }
 
 main {
-  margin-left: 40em;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 5em;
   width: 90em;
   height: 83em;
@@ -337,7 +338,7 @@ li.plus-jakarta-sans-bold {
 }
 
 .lstN {
-  list-style-type: none;
+  list-style-type: square;
   font-size: larger;
   padding-top: 1.3em;
   margin-top: 0;
